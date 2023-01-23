@@ -9,6 +9,13 @@
         min: 3,
         max: 20
     }, 
+    lastName: {
+        type: String,
+        unique: true,
+        required: true,
+        min: 3,
+        max: 20
+    }, 
     email:{
         type: String,
         required: true,

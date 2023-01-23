@@ -11,7 +11,11 @@ import morgan from 'morgan';
 import cloudinary from "cloudinary"
 cloudinary.v2;
 // import { Buffer } from 'buffer';
-import { Server } from 'socket.io';
+import { Server } from 'socket.io'; 
+
+import 'mocha'
+import { UserInterface } from './interfaces/UserInterface';
+import User from './models/User';
 let io : any;
 
 

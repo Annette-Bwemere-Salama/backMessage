@@ -16,5 +16,6 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true
+    
   }
 }
